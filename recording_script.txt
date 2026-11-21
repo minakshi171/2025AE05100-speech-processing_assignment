@@ -1,0 +1,45 @@
+BLOCK 1: WORDS  (record as data/original/words_block.wav)
+Silence 1 s, say the code, pause 2 s. Then each line below: say the word once, pause 2 s.
+  CODE: 5 5 1 8 3 8
+  bed   (repetition 0)
+  bed   (repetition 1)
+  bed   (repetition 2)
+  bad   (repetition 0)
+  bad   (repetition 1)
+  bad   (repetition 2)
+  sink   (repetition 0)
+  sink   (repetition 1)
+  sink   (repetition 2)
+  think   (repetition 0)
+  think   (repetition 1)
+  think   (repetition 2)
+  mat   (repetition 0)
+  mat   (repetition 1)
+  mat   (repetition 2)
+  net   (repetition 0)
+  net   (repetition 1)
+  net   (repetition 2)
+  rice   (repetition 0)
+  rice   (repetition 1)
+  rice   (repetition 2)
+  lice   (repetition 0)
+  lice   (repetition 1)
+  lice   (repetition 2)
+  pan   (repetition 0)
+  pan   (repetition 1)
+  pan   (repetition 2)
+  sheep   (repetition 0)
+  sheep   (repetition 1)
+  sheep   (repetition 2)
+
+BLOCK 2: SENTENCES  (record as data/original/sentences_block.wav)
+Silence 1 s, say the code, pause 2 s. Then each sentence once, pause 2 s after each.
+  CODE: 5 5 1 8 3 8
+  sentence 0: nine chargers cost five hundred rupees in lucknow
+  sentence 1: remind me to meet anirudh in kochi on thursday
+  sentence 2: call pooja on tuesday morning about the keyboards
+  sentence 3: book three tickets to nagpur for shruti
+
+BLOCK 3: ROOM NOISE  (record as data/original/noise_block.wav)
+Silence 1 s, say the code, then stay completely silent for about 11 s and stop.
+  CODE: 5 5 1 8 3 8
