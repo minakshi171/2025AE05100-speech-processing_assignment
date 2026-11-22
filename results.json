@@ -1,3 +1,196 @@
 {
-  "mfcc_sum_first_clip": -2407.322836948214
+  "mfcc_sum_first_clip": -2407.322836948214,
+  "toy_hmm_forward": 0.003531875,
+  "toy_hmm_viterbi": 0.0016200000000000003,
+  "hmm_training_iterations": 5.0,
+  "hmm_number_of_models": 10.0,
+  "hmm_training_final_likelihoods": {
+    "bed": -9466.506005834985,
+    "bad": -2568.9871630578427,
+    "sink": -1723.111469979593,
+    "think": -6780.167797845239,
+    "mat": -16877.982281659002,
+    "net": -19001.41553400691,
+    "rice": -34421.80310162209,
+    "lice": -11246.311132622632,
+    "pan": -9375.151708000583,
+    "sheep": -6059.592041193257
+  },
+  "hmm_test_accuracy": 0.2,
+  "hmm_test_correct": 2.0,
+  "hmm_test_total": 10.0,
+  "hmm_confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "hmm_test_predictions": [
+    {
+      "actual": "bed",
+      "predicted": "rice",
+      "correct": false
+    },
+    {
+      "actual": "bad",
+      "predicted": "bad",
+      "correct": true
+    },
+    {
+      "actual": "sink",
+      "predicted": "pan",
+      "correct": false
+    },
+    {
+      "actual": "think",
+      "predicted": "mat",
+      "correct": false
+    },
+    {
+      "actual": "mat",
+      "predicted": "mat",
+      "correct": true
+    },
+    {
+      "actual": "net",
+      "predicted": "mat",
+      "correct": false
+    },
+    {
+      "actual": "rice",
+      "predicted": "lice",
+      "correct": false
+    },
+    {
+      "actual": "lice",
+      "predicted": "rice",
+      "correct": false
+    },
+    {
+      "actual": "pan",
+      "predicted": "mat",
+      "correct": false
+    },
+    {
+      "actual": "sheep",
+      "predicted": "net",
+      "correct": false
+    }
+  ]
 }
