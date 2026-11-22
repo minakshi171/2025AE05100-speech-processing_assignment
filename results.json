@@ -192,5 +192,8 @@
       "predicted": "net",
       "correct": false
     }
-  ]
+  ],
+  "toy_ctc_prob": 0.17520000000000002,
+  "ctc_torch_probability": 0.17520000040531158,
+  "ctc_verification_difference": 4.0531156209056007e-10
 }
