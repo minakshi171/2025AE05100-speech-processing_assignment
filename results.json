@@ -508,5 +508,9 @@
   },
   "toy_add1_bigram": 0.125,
   "toy_kn_bigram": 0.11574074074074073,
-  "wfst_det_states": 7.0
+  "wfst_det_states": 7.0,
+  "wer_sentence1_wav2vec2": 1.625,
+  "wer_beam_width_1": 1.625,
+  "wer_widest_beam": 1.75,
+  "griffinlim_convergence_30": 0.14588552713394165
 }
