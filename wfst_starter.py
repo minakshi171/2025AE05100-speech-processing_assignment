@@ -62,10 +62,52 @@ class FST:
 
 
 def compose(a, b):
-    """TODO [Critical]: return the composition of a and b (tropical semiring).
-    A path in the result exists for every pair of paths where a's output label equals b's input
-    label. Handle epsilon labels. Weights add."""
-    raise NotImplementedError
+    """Compose two FSTs with epsilon handling and tropical weights."""
+    result = FST()
+
+    start_pair = (a.start, b.start)
+    state_map = {start_pair: result.add_state()}
+    queue = [start_pair]
+
+    while queue:
+        sa, sb = queue.pop(0)
+        src = state_map[(sa, sb)]
+
+        if sa in a.finals and sb in b.finals:
+            result.set_final(src, a.finals[sa] + b.finals[sb])
+
+        # Epsilon output from A: advance A without advancing B.
+        for il, ol, aw, da in a.arcs[sa]:
+            if ol == EPS:
+                pair = (da, sb)
+                if pair not in state_map:
+                    state_map[pair] = result.add_state()
+                    queue.append(pair)
+                result.add_arc(src, il, EPS, aw, state_map[pair])
+
+        # Epsilon input to B: advance B without advancing A.
+        for il, ol, bw, db in b.arcs[sb]:
+            if il == EPS:
+                pair = (sa, db)
+                if pair not in state_map:
+                    state_map[pair] = result.add_state()
+                    queue.append(pair)
+                result.add_arc(src, EPS, ol, bw, state_map[pair])
+
+        # Match A output with B input.
+        for ail, aol, aw, da in a.arcs[sa]:
+            if aol == EPS:
+                continue
+            for bil, bol, bw, db in b.arcs[sb]:
+                if bil == EPS or aol != bil:
+                    continue
+                pair = (da, db)
+                if pair not in state_map:
+                    state_map[pair] = result.add_state()
+                    queue.append(pair)
+                result.add_arc(src, ail, bol, aw + bw, state_map[pair])
+
+    return result
 
 
 if __name__ == "__main__":

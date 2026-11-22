@@ -507,5 +507,6 @@
     "tuesday": "CMUdict"
   },
   "toy_add1_bigram": 0.125,
-  "toy_kn_bigram": 0.11574074074074073
+  "toy_kn_bigram": 0.11574074074074073,
+  "wfst_det_states": 7.0
 }
