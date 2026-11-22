@@ -505,5 +505,7 @@
     "tickets": "CMUdict",
     "to": "CMUdict",
     "tuesday": "CMUdict"
-  }
+  },
+  "toy_add1_bigram": 0.125,
+  "toy_kn_bigram": 0.11574074074074073
 }
