@@ -195,5 +195,315 @@
   ],
   "toy_ctc_prob": 0.17520000000000002,
   "ctc_torch_probability": 0.17520000040531158,
-  "ctc_verification_difference": 4.0531156209056007e-10
+  "ctc_verification_difference": 4.0531156209056007e-10,
+  "toy_add_one_probability": 0.125,
+  "toy_kn_probability": 0.11574074074074073,
+  "brown_kn_perplexity": 270.45585425013417,
+  "brown_kn_sentence_perplexities": [
+    777.7860100611581,
+    158.1325522585982,
+    121.16279025732203,
+    397.7856126831706
+  ],
+  "pronunciation_lexicon": {
+    "about": [
+      [
+        "AH0 B AW1 T",
+        0.0
+      ]
+    ],
+    "anirudh": [
+      [
+        "AH0 N IH1 R IH0 D",
+        0.0
+      ],
+      [
+        "AH0 N IY1 R UW1 DH",
+        1.2
+      ],
+      [
+        "AH0 N IH1 R UW1 DH",
+        2.0
+      ]
+    ],
+    "bad": [
+      [
+        "B AE1 D",
+        0.0
+      ]
+    ],
+    "bed": [
+      [
+        "B EH1 D",
+        0.0
+      ]
+    ],
+    "book": [
+      [
+        "B UH1 K",
+        0.0
+      ]
+    ],
+    "call": [
+      [
+        "K AO1 L",
+        0.0
+      ]
+    ],
+    "chargers": [
+      [
+        "CH AA1 R JH ER0 Z",
+        0.0
+      ]
+    ],
+    "cost": [
+      [
+        "K AA1 S T",
+        0.0
+      ]
+    ],
+    "five": [
+      [
+        "F AY1 V",
+        0.0
+      ]
+    ],
+    "for": [
+      [
+        "F AO1 R",
+        0.0
+      ]
+    ],
+    "hundred": [
+      [
+        "HH AH1 N D R AH0 D",
+        0.0
+      ]
+    ],
+    "in": [
+      [
+        "IH0 N",
+        0.0
+      ]
+    ],
+    "keyboards": [
+      [
+        "K IY1 B AO2 R D Z",
+        0.0
+      ]
+    ],
+    "kochi": [
+      [
+        "K OW1 CH IY0",
+        0.0
+      ],
+      [
+        "K OW0 CH IY1",
+        1.0
+      ],
+      [
+        "K AA1 CH IY0",
+        1.8
+      ]
+    ],
+    "lice": [
+      [
+        "L AY1 S",
+        0.0
+      ]
+    ],
+    "lucknow": [
+      [
+        "L AH1 K N OW0",
+        0.0
+      ],
+      [
+        "L AH1 K N AW1",
+        1.0
+      ],
+      [
+        "L UH1 K N AO0",
+        1.8
+      ]
+    ],
+    "mat": [
+      [
+        "M AE1 T",
+        0.0
+      ]
+    ],
+    "me": [
+      [
+        "M IY1",
+        0.0
+      ]
+    ],
+    "meet": [
+      [
+        "M IY1 T",
+        0.0
+      ]
+    ],
+    "morning": [
+      [
+        "M AO1 R N IH0 NG",
+        0.0
+      ]
+    ],
+    "nagpur": [
+      [
+        "N AE1 G ER0",
+        0.0
+      ]
+    ],
+    "net": [
+      [
+        "N EH1 T",
+        0.0
+      ]
+    ],
+    "nine": [
+      [
+        "N AY1 N",
+        0.0
+      ]
+    ],
+    "on": [
+      [
+        "AA1 N",
+        0.0
+      ]
+    ],
+    "pan": [
+      [
+        "P AE1 N",
+        0.0
+      ]
+    ],
+    "pooja": [
+      [
+        "P UW1 JH AH0",
+        0.0
+      ]
+    ],
+    "remind": [
+      [
+        "R IY0 M AY1 N D",
+        0.0
+      ]
+    ],
+    "rice": [
+      [
+        "R AY1 S",
+        0.0
+      ]
+    ],
+    "rupees": [
+      [
+        "R UW0 P IY1 Z",
+        0.0
+      ]
+    ],
+    "sheep": [
+      [
+        "SH IY1 P",
+        0.0
+      ]
+    ],
+    "shruti": [
+      [
+        "SH R UW1 T IY0",
+        0.0
+      ]
+    ],
+    "sink": [
+      [
+        "S IH1 NG K",
+        0.0
+      ]
+    ],
+    "the": [
+      [
+        "DH AH0",
+        0.0
+      ]
+    ],
+    "think": [
+      [
+        "TH IH1 NG K",
+        0.0
+      ]
+    ],
+    "three": [
+      [
+        "TH R IY1",
+        0.0
+      ]
+    ],
+    "thursday": [
+      [
+        "TH ER1 Z D EY2",
+        0.0
+      ]
+    ],
+    "tickets": [
+      [
+        "T IH1 K AH0 T S",
+        0.0
+      ]
+    ],
+    "to": [
+      [
+        "T UW1",
+        0.0
+      ]
+    ],
+    "tuesday": [
+      [
+        "T UW1 Z D IY0",
+        0.0
+      ]
+    ]
+  },
+  "pronunciation_sources": {
+    "about": "CMUdict",
+    "anirudh": "G2P",
+    "bad": "CMUdict",
+    "bed": "CMUdict",
+    "book": "CMUdict",
+    "call": "CMUdict",
+    "chargers": "CMUdict",
+    "cost": "CMUdict",
+    "five": "CMUdict",
+    "for": "CMUdict",
+    "hundred": "CMUdict",
+    "in": "CMUdict",
+    "keyboards": "CMUdict",
+    "kochi": "G2P",
+    "lice": "CMUdict",
+    "lucknow": "G2P",
+    "mat": "CMUdict",
+    "me": "CMUdict",
+    "meet": "CMUdict",
+    "morning": "CMUdict",
+    "nagpur": "G2P",
+    "net": "CMUdict",
+    "nine": "CMUdict",
+    "on": "CMUdict",
+    "pan": "CMUdict",
+    "pooja": "G2P",
+    "remind": "CMUdict",
+    "rice": "CMUdict",
+    "rupees": "CMUdict",
+    "sheep": "CMUdict",
+    "shruti": "G2P",
+    "sink": "CMUdict",
+    "the": "CMUdict",
+    "think": "CMUdict",
+    "three": "CMUdict",
+    "thursday": "CMUdict",
+    "tickets": "CMUdict",
+    "to": "CMUdict",
+    "tuesday": "CMUdict"
+  }
 }
